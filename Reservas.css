@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+/*----Menu inicial----*/
+
+#menu{
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    justify-items: center;
+    text-align: center;
+    padding: 1rem;
+    background-size: cover;
+    background-image: url(img/img-fundo);
+}
+
+/*----Menu inicial----*/
+
+/*----icones inicial----*/
+.Pesquisa{
+    text-align: center;
+    display: inline-block;
+    color: #76a8f3;
+}
+
+.Pesquisa i{
+    margin: 15px;
+    font-size: 250%;
+}
+/*----icones inicial----*/
+
+/*----h1----*/
+
+h1{
+    justify-items: center;
+    text-align: center;
+    margin: 2rem;
+    font-size: 300%;
+    color: #0a0a0a;
+}
+
+/*----h1----*/
+
+/*----Barra de Pesquisa----*/
+.barra-menu{
+    font-size: 100%;
+    background-color: #0a0a0a ;
+    display: inline-block;
+    width: 50%;
+    border-radius: .5rem;
+    padding: .3rem;
+}
+
+.barra-menu i{
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #0769fc;
+    color: #ffff;
+    margin: .3rem;
+}
+
+.barra-menu a :hover{
+background-color: #76a8f3;
+}
+
+
+
+/*----Barra de Pesquisa----*/
+
+.barra-menu input{
+    width: 50%;
+    font-size: 100%;
+    color: #0769fc;
+}
+
+/*----Barra de Pesquisa----*/
+
+/*----Recepção----*/
+aside{
+    text-align: center;
+    width: 98.4%;
+    padding: 10px;
+    color: #ffff;
+    background-image: url(img/recepção);
+    background-size: auto;
+    
+}
+
+/*----recepção----*/
+
+
+header{
+    width: 100%;
+    justify-items: center;
+}
+
+
+/*----Categorias quartos----*/
+
+#Categorias-quartos{
+   
+    display:flex;
+    background-color: #dce5f5;
+    padding: 60px;
+}
+
+/*----Categorias quartos----*/
+
+/*----Cama de Casal----*/
+
+.Cama-casal{
+    border: solid #0a0a0a;
+    display: inline-block;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.Cama-casal h3{
+    color: #706f6f;
+    border-bottom: solid .1rem;
+    padding: .5rem;
+    margin-bottom: .2rem;
+}
+
+.Cama-casal p{
+    text-transform: uppercase;
+    text-transform: unset;
+    margin: .3rem;
+    margin-right: 1rem;
+}
+
+.Cama-casal h4{
+    padding: .5rem;
+}
+
+.Cama-casal button {
+    cursor: pointer;
+    color: #fbfcfd;
+   background-color: #0769fc;
+    padding: .5rem;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+}
+
+.Cama-casal a :hover{
+    color:#0769fc;
+    background-color: #bad4fa;
+}
+
+
+
+
+/*----Cama de Casal----*/
+
+
+/*----Cama de Solteiro----*/
+
+.Cama-Solteiro{
+    border: solid #0a0a0a;
+    display: inline-block;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.Cama-Solteiro h3{
+    color: #706f6f;
+    border-bottom: solid .1rem;
+    padding: .5rem;
+    margin-bottom: .2rem;
+}
+
+.Cama-Solteiro p{
+    text-transform: uppercase;
+    text-transform: unset;
+    margin: .3rem;
+    margin-right: 1rem;
+}
+
+.Cama-Solteiro h4{
+    padding: .5rem;
+}
+
+.Cama-Solteiro button {
+    cursor: pointer;
+    color: #fbfcfd;
+   background-color: #0769fc;
+    padding: .5rem;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+}
+
+.Cama-Solteiro a :hover{
+    color:#0769fc;
+    background-color: #bad4fa;
+}
+
+.Cama-Solteiro img{
+    background-size: cover;
+    width: 100%;
+    height: 51%;
+}
+
+/*----Cama de Solteiro----*/
+
+
+
+/*----Solteiro-Casal----*/
+
+.Solteiro-casal{
+    border: solid #0a0a0a;
+    display: inline-block;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.Solteiro-casal h3{
+    color: #706f6f;
+    border-bottom: solid .1rem;
+    padding: .5rem;
+    margin-bottom: .2rem;
+}
+
+.Solteiro-casal p{
+    text-transform: uppercase;
+    text-transform: unset;
+    margin: .3rem;
+    margin-right: 1rem;
+}
+
+.Solteiro-casal h4{
+    padding: .5rem;
+}
+
+.Solteiro-casal button {
+    cursor: pointer;
+    color: #fbfcfd;
+   background-color: #0769fc;
+    padding: .5rem;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+}
+
+.Solteiro-casal a :hover{
+    color:#0769fc;
+    background-color: #bad4fa;
+}
+
+.Solteiro-casal img{
+    background-size: cover;
+    width: 100%;
+    height: 51%;
+}
+
+/*----Solteiro-Casal----*/
+
+/*----restaurate----*/
+
+.Restaurante{
+    text-align: center;
+    justify-items: center;
+    background-color: #fae0d5;
+    padding: 5%;
+}
+
+.Restaurante h2{
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f5c1ab;
+}
+
+.Restaurante h3{
+    border-radius: 2rem;
+    background-color: #0a0a0a;
+    text-align: center;
+    color: #fbfbfc;
+}
+
+
+/*----restaurate----*/
+
+
+
+.ária-de-lazer{
+    text-align: center;
+    padding: 10px;
+
+
+}
+
+
+
+/*----Área-sociais----*/
+
+.Área-sociais{
+    background-color: #dddcdc;
+    width: 100%;
+    display: flex;
+    display: inline-flex;
+
+}
+
+.Área-sociais img{
+    padding: 15px;
+}
+
+.Área-sociais h3{
+    margin: 1rem;
+    color: #066103;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Piscina img{
+    width: 57%;
+}
+
+/*----Área-sociais----*/
+
+#Footer{
+    background-color: #4e4e4e;
+    padding: 15px;
+    margin-top: 15%;
+}
+
+#Footer h5{
+    color: #3d59f7;
+}
+
+
+#redes{
+    display: inline-flex;
+    padding: 1rem;
+    width: 50%;
+}
+
+.instagram {
+    margin: 10px;
+    padding: 10px;
+    color: #ffff;
+    border-radius: 20px;
+    background: linear-gradient(#b7e1fa,#e731a2,#fd93c4,#f3f7c5);
+}
+
+
+.facebook{
+    margin: 10px;
+    padding: 10px;
+    color: #ffff;
+    border-radius: 20px;
+    background: linear-gradient(#024369,#3d59f7,#483bf8,#85aefa);
+}
+
+.whatsapp{
+    margin: 10px;
+    padding: 10px;
+    color: #ffff;
+    border-radius: 20px;
+    background: linear-gradient(#035a12,#217e21,#01ff0e,#013f0b);
+}
+
+.tabela ul{
+text-transform: none;
+}
+.tabela{
+    
+    display: block;
+    margin-left: 140%;
+    color: #97c8f7;
+}
+
+.Endereço{
+    text-align: center;
+    
+}
+
+.copyright{
+    text-align: center;
+    background-color: #2e2e2e;
+}
+
+.copyright h6{
+    margin: 10px;
+
+}
